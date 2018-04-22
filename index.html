@@ -1,1 +1,48 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Saint Calculus</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<h1 id="top">Saint Calculus</h1>
+			
+		<!-- Start of Calculator -->
+			<p onclick="calculator()" id="calcToggle">Click here to <b>show</b> the calculator.</p>
+			<div id="calculator" class="calculator">
+				<div class="calculator_display">
+				  <p id="display"></p>
+				</div>
+				<div class="calculator_buttons">
+					<button type="button" class="calc_buttons" onclick="oneClick()">1</button>
+					<button class="calc_buttons" onclick="twoClick()">2</button>
+					<button class="calc_buttons" onclick="threeClick()">3</button>
+					<button class="calc_buttons" onclick="fourClick()">4</button>
+					<button class="calc_buttons" onclick="fiveClick()">5</button>
+					<button class="calc_buttons" onclick="sixClick()">6</button>
+					<button class="calc_buttons" onclick="sevenClick()">7</button>
+					<button class="calc_buttons" onclick="eightClick()">8</button>
+					<button class="calc_buttons" onclick="nineClick()">9</button>
+					<button class="calc_buttons" onclick="zeroClick()">0</button>
+					<button class="calc_buttons" onclick="dotClick()">.</button>
+					<button class="calc_buttons" onclick="plusClick()">+</button>
+					<button class="calc_buttons" onclick="minusClick()">-</button>
+					<button class="calc_buttons" onclick="timesClick()">*</button>
+					<button class="calc_buttons" onclick="divideClick()">/</button>
+					<button class="calc_buttons" onclick="powClick()">^</button>
+					<button class="calc_buttons" onclick="clrClick()">Clr</button>
+					<button class="calc_buttons" onclick="equalsClick()">=</button>
+				</div>
+			</div>
+		<!-- End of calculator -->
+		
+		<hr>
+			<h2 id="keyToggle">Homework Keys</h2>
+			<div id="key">
+				<a alt="5-3 key" href="5_3.html">5-3 Key</a> 
+			</div>
+			
+		<script src="script.js"></script>
+	</body>
+</html>
